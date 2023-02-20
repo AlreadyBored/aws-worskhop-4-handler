@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "forecast-service-js"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-24jn341jfvcg"
+s3_prefix = "forecast-service-js"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
